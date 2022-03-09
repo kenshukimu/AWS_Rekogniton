@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aws_Rekognition", "Aws_Rekognition\Aws_Rekognition.csproj", "{3AAB1FCB-7980-45D3-A179-7CC04337661C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AAB1FCB-7980-45D3-A179-7CC04337661C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAB1FCB-7980-45D3-A179-7CC04337661C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAB1FCB-7980-45D3-A179-7CC04337661C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAB1FCB-7980-45D3-A179-7CC04337661C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75C5D450-3E58-463E-A6B4-19F6ABC2C2DB}
+	EndGlobalSection
+EndGlobal
