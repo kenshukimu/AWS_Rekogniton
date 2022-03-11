@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="accessKey" xml:space="preserve">
-    <value>AKIASCUOCXBTSSIZERV4</value>
-  </data>
-  <data name="secretKey" xml:space="preserve">
-    <value>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</value>
-  </data>
 </root>
