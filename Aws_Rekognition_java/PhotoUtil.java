@@ -24,8 +24,8 @@ import com.amazonaws.services.rekognition.model.Image;
 
 public class PhotoUtil  {
 	
-	public static String accessKey = "AKIASCUOCXBTSSIZERV4";
-	public static String secretKey = "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";
+	public static String accessKey = "";
+	public static String secretKey = "";
 	public static Float similarityThreshold = 70F;
 	
 	public static boolean rekognition_detect_face(byte[] source) {
@@ -58,12 +58,12 @@ public class PhotoUtil  {
 
 	         for (FaceDetail face: faceDetails) {
 	            if (request.getAttributes().contains("ALL")) {
-	            	//»ç¶÷ »çÁøÀÏ È®·ü
+	            	//ì‚¬ëžŒ ì‚¬ì§„ì¼ í™•ë¥ 
 	               float confidence =  face.getConfidence();	            	
 					/*
-					 * AgeRange ageRange = face.getAgeRange(); System.out.println("ÃøÁ¤µÈ ³ªÀÌ´Â  " +
-					 * ageRange.getLow().toString() + "¼¼¿¡¼­  " + ageRange.getHigh().toString() +
-					 * " ÀÔ´Ï´Ù.");
+					 * AgeRange ageRange = face.getAgeRange(); System.out.println("ì¸¡ì •ëœ ë‚˜ì´ëŠ”  " +
+					 * ageRange.getLow().toString() + "ì„¸ì—ì„œ  " + ageRange.getHigh().toString() +
+					 * " ìž…ë‹ˆë‹¤.");
 					 */
 	               if(confidence > similarityThreshold) {
 	            	   photoCheck = true;
